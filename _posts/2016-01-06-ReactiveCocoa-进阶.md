@@ -3,7 +3,7 @@ layout:     post
 title:      Test
 subtitle:   Just a small test
 date:       2018-12-09
-author:     BY
+author:     Jerry Zhao
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
