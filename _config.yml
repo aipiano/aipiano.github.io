@@ -3,7 +3,7 @@ title: Jerry Zhao Blog
 SEOTitle: 赵宇的博客 | Jerry Zhao Blog
 header-img: img/post-bg-desk.jpg
 email: jerry.zy@foxmail.com
-description: "无记录，不成长"
+description: "A place to share science, ideas and life."
 keyword: "Jerry Zhao, Blog, 博客, 赵宇, 机器视觉, 人工智能, 机器人, 算法, 数学, Math, Robot, Robotics, Computer Vision, AI"
 url: "http://aipiano.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -11,7 +11,7 @@ github_repo: "https://github.com/aipiano/aipiano.github.io" # you code repositor
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "无记录，不成长"
 sidebar-avatar: /img/piano.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -60,14 +60,14 @@ kramdown:
 # disqus_username: qiubaiying
 
 # Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+#gitalk:
+#  enable: false    #是否开启Gitalk评论
+#  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
+#  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+#  repo: qiubaiying.github.io    #仓库名称
+#  owner: qiubaiying    #github用户名
+#  admin: qiubaiying
+#  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
