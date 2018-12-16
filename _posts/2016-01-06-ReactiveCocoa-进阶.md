@@ -13,7 +13,6 @@ tags:
     - 数学
 ---
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 测试数学公式
 
