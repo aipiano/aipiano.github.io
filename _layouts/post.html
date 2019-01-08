@@ -113,12 +113,6 @@ layout: default
                 </div>
                 <!-- disqus 评论框 end -->
                 {% endif %}
-				
-				<!-- Preprocess Text for MathJax -->
-				{% if page.math %}
-					<script src="{{ site.baseurl }}/js/math-code.js"></script>
-				{% endif %}
-
             </div>  
 
     <!-- Side Catalog Container -->
@@ -173,6 +167,12 @@ layout: default
                 {% endif %}
             </div>
         </div>
+		
+	<!-- Preprocess Text for MathJax -->
+		{% if page.math %}
+			<script src="{{ site.baseurl }}/js/math-code.js"></script>
+		{% endif %}
+		
     </div>
 </article>
 
