@@ -79,9 +79,6 @@ layout: default
                         </a>
                     </li>
                     {% endif %}
-					{% if page.math %}
-					<script src="{{ site.baseurl }}/js/math-code.js"></script>
-					{% endif %}
                 </ul>
 
 
@@ -171,6 +168,10 @@ layout: default
                 {% endif %}
             </div>
         </div>
+		
+		{% if page.math %}
+			<script src="{{ site.baseurl }}/js/math-code.js"></script>
+		{% endif %}
     </div>
 </article>
 
