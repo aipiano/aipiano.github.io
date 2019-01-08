@@ -113,6 +113,11 @@ layout: default
                 </div>
                 <!-- disqus 评论框 end -->
                 {% endif %}
+				
+				<!-- Preprocess Text for MathJax -->
+				{% if page.math %}
+					<script src="{{ site.baseurl }}/js/math-code.js"></script>
+				{% endif %}
 
             </div>  
 
@@ -132,7 +137,7 @@ layout: default
                 </div>
             </div>
         {% endif %}
-
+		
     <!-- Sidebar Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
@@ -168,10 +173,6 @@ layout: default
                 {% endif %}
             </div>
         </div>
-		
-		{% if page.math %}
-			<script src="{{ site.baseurl }}/js/math-code.js"></script>
-		{% endif %}
     </div>
 </article>
 
