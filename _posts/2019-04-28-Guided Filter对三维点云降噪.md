@@ -88,5 +88,9 @@ $$
 # Notes
 1. 对同一个点云进行多轮滤波（一般2轮足矣）可以大大提高降噪效果，有点类似于优化中的重复线性化思想。但过多的轮数可能造成滤波后的点云分布不均，由于计算均值的关系，每一轮滤波都会放大原来点云的非均匀性。
 
+# Code
+
+Python源码可见[github](https://github.com/aipiano/guided-filter-point-cloud-denoise).
+
 # References
 1. [Guided Image Filtering](http://kaiminghe.com/publications/pami12guidedfilter.pdf)
